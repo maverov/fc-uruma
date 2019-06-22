@@ -1,0 +1,140 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-image: url(https://i.pinimg.com/236x/02/4b/1c/024b1c934760aa858cdc4366c2744621--lawn-turf-grass-texture.jpg?b=t);	
+}
+
+#container {
+	width: 70%;
+	margin: auto;
+	margin-top: 0px;
+	padding: 0;
+	border: 2px dashed darkred;
+}
+
+#header {
+	width: 100%;
+	height: 120px;
+	background-color: darkgray;
+	margin: 0;
+}
+
+#logo {
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 80%;
+	border: 2px dashed red;
+	float: left;
+}
+
+#slogan {
+	font-size: 15px;
+	padding-top: 20px;
+	width: 50%;
+	height: 50%;
+	float: right;
+}
+
+#nav {
+	width: 100%;
+	height: 50px;
+	background-color: darkred;
+}
+
+#nav ul {
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+}
+
+#nav ul li {
+	display: center;
+	float: left;	
+	margin-right: 40px;
+}
+
+#nav ul li a {
+	font-size: 17px;
+	justify-content: center;
+	text-decoration: none;
+	display: block;
+	padding: 15px 5px 10px 5px;
+	background-color: darkred;
+	color: white;
+}
+
+#nav ul li a:hover {
+	background-color: white;
+	color: darkred;
+	border: 1px solid darkred;
+}
+
+#article {
+	width: 70%;
+	height: 500px;
+	background-color: lightgrey;
+	float: left;
+	padding: 0;
+}
+
+#content {
+	padding: 0;
+	margin: 0;
+	width: 90%;
+	margin-left: 20px;
+}
+
+#content h1, {
+	margin: 0;
+}
+
+#sidebar {
+	width: 30%;
+	height: 500px;
+	background-color: #575a5b;
+	float: right;
+}
+
+#sidebar h1 {
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+#sidebar h4, p {
+	padding-left: 12px;
+	font-size: 12px;
+}
+
+#sidebar a {
+	text-decoration: underline;
+	color: darkred;
+}
+
+#footer {
+	padding-top: 5px;
+	width: 100%;
+	height: 40px;
+	background-color: darkgray;
+	clear: both;
+}
+
+#footer p {
+	font-size: 12px;
+	float: left;
+}
+
+#footer #socialmedia i {
+	margin-left: 5px;
+}
+
+#footer #developer {
+	float: right;
+	padding-right: 10px;
+}
+
+p.author {
+	font-size: 12px;
+}
